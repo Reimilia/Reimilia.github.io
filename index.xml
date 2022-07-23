@@ -33,6 +33,22 @@
     </item>
     
     <item>
+      <title>Learning Deep Latent Subspaces for Image Denoising</title>
+      <link>https://Reimilia.github.io/publication/yang-2021-learning/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://Reimilia.github.io/publication/yang-2021-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Transferable 3D Adversarial Cloaks for Deep Trained Detectors</title>
+      <link>https://Reimilia.github.io/publication/maesumi-2021-learning/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://Reimilia.github.io/publication/maesumi-2021-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://Reimilia.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -234,6 +250,14 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>SketchyCoreSVD: SketchySVD from random subsampling of the data matrix</title>
+      <link>https://Reimilia.github.io/publication/bajaj-2019-sketchycoresvd/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://Reimilia.github.io/publication/bajaj-2019-sketchycoresvd/</guid>
+      <description></description>
     </item>
     
     <item>
