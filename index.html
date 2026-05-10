@@ -54,11 +54,13 @@
           <h2>News</h2>
           <a class="small-link" href="#content-guide">How to edit</a>
         </div>
+<!-- NEWS:START -->
         <ul class="news-list">
           <li><time datetime="2026-05">May 2026</time> Launched a refreshed personal website with a clean academic layout.</li>
           <li><time datetime="2021-04">Apr 2021</time> Posted the preprint “Learning Deep Latent Subspaces for Image Denoising.”</li>
           <li><time datetime="2021">2021</time> Co-authored “Learning Transferable 3D Adversarial Cloaks for Deep Trained Detectors.”</li>
         </ul>
+        <!-- NEWS:END -->
       </section>
 
       <section class="section" id="research">
@@ -77,9 +79,11 @@
           <h2>Selected publications</h2>
           <a class="small-link" href="/publications/">All publications</a>
         </div>
+<!-- SELECTED_PUBLICATIONS:START -->
         <article class="item">
           <h3>Learning Deep Latent Subspaces for Image Denoising</h3>
           <p class="meta">Yunhao Yang, Yuhan Zheng, Yi Wang, Chandrajit Bajaj · arXiv preprint arXiv:2104.00253 · 2021</p>
+          <p class="links"><a href="https://arxiv.org/abs/2104.00253">arXiv</a></p>
         </article>
         <article class="item">
           <h3>Learning Transferable 3D Adversarial Cloaks for Deep Trained Detectors</h3>
@@ -89,6 +93,7 @@
           <h3>SketchyCoreSVD: SketchySVD from Random Subsampling of the Data Matrix</h3>
           <p class="meta">Rajat Bajaj, Cong Ma, Yi Wang, Chi-Heng Lin, David B. Dunson, Lawrence Carin · Data Mining and Knowledge Discovery · 2019</p>
         </article>
+        <!-- SELECTED_PUBLICATIONS:END -->
       </section>
 
       <section class="section guide" id="content-guide">
@@ -97,10 +102,11 @@
           <li><strong>Profile:</strong> edit the name, title, location, email, and social links in the profile card near the top of <code>index.html</code>.</li>
           <li><strong>Photo:</strong> replace <code>authors/admin/avatar.jpg</code> with your preferred headshot, keeping the same filename or updating the image path.</li>
           <li><strong>About:</strong> rewrite the two about paragraphs with your research area, advisors/collaborators, institution, and current goals.</li>
-          <li><strong>News:</strong> add recent items first, using short entries and month/year dates.</li>
-          <li><strong>Publications:</strong> update both the selected publications on this page and the full list in <code>publications/index.html</code>.</li>
+          <li><strong>News:</strong> add recent items to <code>content/news.md</code>, then run <code>python3 scripts/build_content.py</code>.</li>
+          <li><strong>Publications:</strong> add BibTeX entries to <code>content/publications.bib</code>, set <code>selected = {true}</code> for homepage highlights, then run <code>python3 scripts/build_content.py</code>.</li>
           <li><strong>Talks:</strong> add seminars, posters, conference talks, or invited lectures in <code>talks/index.html</code>.</li>
           <li><strong>CV:</strong> replace <code>uploads/resume.pdf</code> with your latest CV/resumé.</li>
+          <li><strong>Detailed workflow:</strong> see <code>CONTENT.md</code> for metadata examples and generator instructions.</li>
         </ol>
       </section>
     </section>
